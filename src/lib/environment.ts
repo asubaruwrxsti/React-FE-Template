@@ -1,0 +1,15 @@
+export const CONSTANTS = {
+    API_URL: `${import.meta.env.VITE_API_URL || "http://localhost"}:${import.meta.env.VITE_PORT || "5173"}`,
+    APP_NAME: import.meta.env.VITE_APP_NAME || "React Application",
+    APP_VERSION: import.meta.env.VITE_APP_VERSION || "1.0.0",
+    APP_DESCRIPTION: import.meta.env.VITE_APP_DESCRIPTION || "A React TypeScript application",
+    APP_AUTHOR: import.meta.env.VITE_APP_AUTHOR || "Your Name",
+    APP_COPYRIGHT: import.meta.env.VITE_APP_COPYRIGHT || `© ${new Date().getFullYear()} Subuwu's React Application`,
+    APP_LOGO: import.meta.env.VITE_APP_LOGO || "/logo.svg",
+    APP_FAVICON: import.meta.env.VITE_APP_FAVICON || "/favicon.ico",
+    APP_THEME: import.meta.env.VITE_APP_THEME || "light",
+    APP_LANGUAGE: import.meta.env.VITE_APP_LANGUAGE || "en",
+    CURRENCY: import.meta.env.VITE_CURRENCY || "USD",
+    CURRENCY_ICON: import.meta.env.VITE_CURRENCY_ICON || "$",
+    PORT: import.meta.env.VITE_PORT || "5173",
+}
